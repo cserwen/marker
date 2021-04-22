@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Maker">
         <activity
+            android:name=".EditorActivity"
+            android:label="@string/title_activity_editor"
+            android:theme="@style/Theme.Maker.NoActionBar">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.Maker.NoActionBar">
